@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:luckpan="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        >
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <LinearLayout
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp">
+
+                <ImageView
+                    android:id="@+id/iv_draw_close"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:padding="5dp"
+                    android:src="@drawable/draw_close"/>
+            </LinearLayout>
+
+
+
+
+
+            <RelativeLayout
+                android:id="@+id/rl_luckpan_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="460dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp">
+
+                <ImageView
+                    android:id="@+id/luckpan_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:background="@drawable/cash_rules"/>
+
+
+
+            </RelativeLayout>
+
+
+
+
+
+
+            <LinearLayout
+                android:id="@+id/ll_coding_draw"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_below="@id/rl_luckpan_layout"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:gravity="center"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/btn_shape_solid_white"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/ll_look_winning"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="26dp"
+                    android:layout_marginRight="26dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/btn_shape_empty_yellow"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="20dp"
+
+                        android:background="@color/transparency"
+                        android:gravity="center"
+                        android:text="查看"
+                        android:textColor="@color/txt_rectangle_yellow"
+                        android:textSize="16sp"
+                        />
+
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_again_winning"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="26dp"
+                    android:layout_marginRight="26dp"
+
+                    android:background="@drawable/btn_shape_solid_yellow"
+                    android:text="去抽奖"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"/>
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+</FrameLayout>

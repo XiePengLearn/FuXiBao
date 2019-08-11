@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+    android:oneshot="false"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <item android:drawable="@drawable/home_towards_the_right_brid" android:duration="80"/>
+     <item android:drawable="@drawable/home_towards_the_right_brid" android:duration="80"/>
+
+
+</animation-list>

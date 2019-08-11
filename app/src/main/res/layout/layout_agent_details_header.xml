@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+
+    <LinearLayout
+        android:id="@+id/ll_top_fan_earnings"
+        android:layout_width="match_parent"
+        android:layout_height="276dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/fans_earnings_top_backage"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/id_cord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:singleLine="true"
+            android:text="当前收益"
+            android:textColor="@color/white"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/txt_shop_title_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="30sp"/>
+
+        <Button
+            android:id="@+id/btn_income_money"
+            android:layout_width="80dp"
+            android:layout_height="28dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/btn_wallet"
+            android:text="提现"
+            android:textColor="@color/white"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_returned_to_fans"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center"
+                android:layout_marginRight="40dp"
+
+                android:text="累计收入  "
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:visibility="visible"/>
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+
+                android:text="当前无收益权限区域"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:visibility="visible"/>
+
+            <TextView
+                android:id="@+id/txt_but_earnings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="2"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:visibility="visible"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+
+                android:text="区，"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:visibility="visible"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+
+                android:text="赶紧"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:visibility="visible"/>
+
+            <TextView
+                android:id="@+id/txt_do_not_earnings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="去购买更多区域升级权限"
+                android:textColor="@color/tv_d69d3a"
+                android:textSize="12sp"
+                android:visibility="visible"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+
+                android:text="吧!"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:visibility="visible"/>
+        </LinearLayout>
+
+        <RadioGroup
+            android:id="@+id/rg_content_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rb_home"
+                style="@style/bottom_tab_style"
+                android:background="@drawable/btn_bottom_woshihehuoren"
+                android:text="合伙人收益"
+                android:textColor="@color/txt_bottom_tab_selector"/>
+
+            <RadioButton
+                android:id="@+id/rb_news"
+                style="@style/bottom_tab_style"
+                android:background="@drawable/btn_bottom_woshihehuoren"
+                android:text="发展合伙人"
+                android:textColor="@color/txt_bottom_tab_selector"/>
+
+
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_root_item"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="238dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="合伙人名称"
+            android:textColor="@color/white"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="区域"
+            android:textColor="@color/white"
+            android:textSize="14sp"/>
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="收益金额"
+            android:textColor="@color/white"
+            android:textSize="14sp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_root_item2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="238dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="合伙人名称"
+            android:textColor="@color/white"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="联系方式"
+            android:textColor="@color/white"
+            android:textSize="14sp"/>
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="收益金额"
+            android:textColor="@color/white"
+            android:textSize="14sp"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

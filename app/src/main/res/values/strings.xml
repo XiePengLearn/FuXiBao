@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">富硒宝</string>
+
+
+    <string-array name="camer_item">
+        <item>从相册选择</item>
+        <item>拍一张</item>
+    </string-array>
+
+    <string name="app_exit">再按一次退出应用</string>
+    <!-- 网络访问错误 -->
+    <string name="net_error">网络访问错误，请稍后再试</string>
+
+    <!--访问数据出错-->
+    <string name="data_error">请求数据失败，请稍后再试!</string>
+
+    <string name="filter_vcode">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-!@#$%^*</string>
+    <string name="code_txt">(%1$ss)后重发</string>
+    <string name="bind_mobile_get_code">获取验证码</string>
+    <string name="group">分组一、分组二、分组三、分组四\n分组五、分组六</string>
+
+
+    <string-array name="wallet_income">
+        <item>粉丝提现</item>
+        <item>合伙人提现</item>
+        <item>xx提现</item>
+    </string-array>
+    <string name="load_error">点击刷新</string>
+    <string name="title_activity_how_to_play">HowToPlayActivity</string>
+</resources>

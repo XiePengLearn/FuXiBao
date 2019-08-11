@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/ll_parent"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:fitsSystemWindows="true"
+              android:orientation="vertical">
+
+    <!-- 标题 -->
+
+    <include layout="@layout/title_layout_withe"/>
+
+
+    <com.shuangpin.rich.ui.widget.MyScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/et_password_white"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="总金额 :"
+                    android:textColor="@color/tv_33"
+                    android:textSize="14sp"/>
+
+                <EditText
+                    android:id="@+id/et_enter_the_amount"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="3"
+                    android:textCursorDrawable="@drawable/a_color_cursor"
+                    android:background="@color/transparency"
+                    android:hint="请输入金额"
+                    android:inputType="numberDecimal"
+                    android:maxLength="10"
+                    android:textSize="14sp"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="0.6"
+                    android:gravity="center_vertical"
+                    android:text="元"
+                    android:textColor="@color/tv_33"
+                    android:textSize="14sp"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="4dp"
+                android:hint="附近的人可随机摘走元宝"
+                android:paddingLeft="@dimen/goods_release_linear_padding"
+                android:textSize="13sp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/et_password_white"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="元宝个数 :"
+                    android:textColor="@color/tv_33"
+                    android:textSize="14sp"/>
+
+                <EditText
+                    android:id="@+id/et_the_bird_number"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="3"
+                    android:textCursorDrawable="@drawable/a_color_cursor"
+                    android:background="@color/transparency"
+                    android:hint="请输入个数"
+                    android:inputType="number"
+                    android:maxLength="10"
+                    android:textSize="14sp"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="0.6"
+                    android:gravity="center_vertical"
+                    android:text="个"
+                    android:textColor="@color/tv_33"
+                    android:textSize="14sp"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="4dp"
+                android:hint="最多可让附近人领取该红包"
+                android:paddingLeft="@dimen/goods_release_linear_padding"
+                android:textColor="@color/tv_8033"
+                android:textSize="13sp"/>
+
+            <LinearLayout
+                android:id="@+id/ll_location"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/et_password_white"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="85dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:text="发元宝时间段 :"
+                    android:textColor="@color/tv_33"
+                    android:textSize="14sp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="5dp"
+                    android:layout_gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_start_time"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+
+                        android:layout_marginLeft="20dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/start_time"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:hint="开始时间"
+                        android:textColor="@color/tv_33"
+                        android:textSize="13sp"
+                        />
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:src="@drawable/line_time"/>
+
+                    <TextView
+                        android:id="@+id/tv_end_time"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/start_time"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:hint="结束时间"
+                        android:textColor="@color/tv_33"
+                        android:textSize="13sp"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="4dp"
+                android:hint="区域"
+                android:paddingLeft="@dimen/goods_release_linear_padding"
+                android:textColor="@color/tv_8033"
+                android:textSize="13sp"/>
+
+            <LinearLayout
+                android:id="@+id/ll_mode_of_payment"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/et_password_white"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+                    android:text="选择支付方式 :"
+                    android:textColor="@color/tv_33"
+                    android:textSize="14sp"/>
+
+                <EditText
+                    android:id="@+id/et_gr_name"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="2"
+                    android:background="@color/transparency"
+                    android:hint="请输入金额"
+                    android:maxLength="10"
+                    android:textSize="14sp"
+                    android:visibility="invisible"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_mode_of_payment"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="微信"
+                    android:textColor="@color/tv_33"
+                    android:textSize="14sp"/>
+
+                <ImageView
+                    android:layout_width="9dp"
+                    android:layout_height="18dp"
+                    android:layout_alignParentRight="true"
+
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="33dp"
+                    android:src="@drawable/arrow3"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="4dp"
+                android:hint="选择支付方式"
+                android:paddingLeft="@dimen/goods_release_linear_padding"
+                android:textColor="@color/tv_8033"
+                android:textSize="13sp"/>
+
+            <Button
+                android:id="@+id/btn_next_data"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/button_put_the_bird"
+                android:text="发元宝喽"
+                android:textColor="@color/white"
+                android:textSize="18sp"/>
+        </LinearLayout>
+    </com.shuangpin.rich.ui.widget.MyScrollView>
+
+
+</LinearLayout>

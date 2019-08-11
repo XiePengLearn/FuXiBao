@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center"
+    >
+
+    <RelativeLayout
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:background="@drawable/bj_shape_whitle" >
+
+        <TextView
+            android:id="@+id/dialog_tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textSize="17sp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:text="提示" />
+
+        <TextView
+            android:id="@+id/dialog_tv2"
+            style="@style/common"
+            android:layout_centerInParent="true"
+            android:text="发现新版本，是否更新？" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical" >
+
+            <View style="@style/viewLines" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+                <Button
+                    android:id="@+id/dialog_qd"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/runt_btn_line_bg"
+                    android:text="确定"
+                    android:textColor="@color/application_blue" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="40dp"
+                    android:background="@color/view_lines" />
+                <Button
+                    android:id="@+id/dialog_qx"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/runt_btn_line_bg"
+                    android:text="取消"
+                    android:textColor="@color/application_blue" />
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

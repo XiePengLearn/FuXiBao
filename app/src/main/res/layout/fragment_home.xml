@@ -1,0 +1,1550 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/home_page_background"
+    >
+
+
+    <!--新闻资讯tv_585fcf-->
+
+
+    <RelativeLayout
+        android:id="@+id/rl_home_root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        >
+
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/sunflower"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="-15dp"
+        android:visibility="invisible"
+        android:src="@drawable/xiangrikui"/>
+
+    <ImageButton
+        android:id="@+id/ib_home_put_the_bird"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="45dp"
+        android:layout_marginLeft="-18dp"
+        android:layout_toRightOf="@id/sunflower"
+        android:background="@drawable/fadou"/>
+
+    <ImageButton
+        android:id="@+id/ib_home_make_partner"
+        android:layout_width="60dp"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="108dp"
+        android:layout_marginRight="9dp"
+        android:background="@drawable/he_huo_ren"/>
+
+    <ImageButton
+        android:id="@+id/ib_home_become_shareholder"
+        android:layout_width="60dp"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="45dp"
+        android:layout_marginRight="9dp"
+        android:background="@drawable/gu_dong"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="165dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="80dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical"
+        >
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_root_gold"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="104dp"
+        android:orientation="vertical"
+        >
+
+        <!--第一行 一个豆苗-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="51dp">
+
+            <RelativeLayout
+                android:id="@+id/rl_bean_seedling_1_1"
+                android:layout_width="50dp"
+                android:layout_height="51dp"
+
+                android:layout_marginLeft="168dp">
+
+
+                <ImageView
+                    android:id="@+id/iv_bean_seedling_1_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/shumiao"/>
+
+                <TextView
+                    android:id="@+id/tv_bean_seedling_1_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/qipao"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:visibility="gone"/>
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+        <!--第二行 2个豆苗-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/rl_bean_seedling_2_1"
+                android:layout_width="50dp"
+                android:layout_height="51dp"
+                android:layout_marginLeft="130dp">
+
+                <ImageView
+                    android:id="@+id/iv_bean_seedling_2_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/shumiao"/>
+
+                <TextView
+                    android:id="@+id/tv_bean_seedling_2_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/qipao"
+                    android:gravity="center"
+                    android:text="12.00"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:visibility="gone"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_bean_seedling_2_2"
+                android:layout_width="50dp"
+                android:layout_height="51dp"
+                android:layout_marginLeft="28dp">
+
+                <ImageView
+                    android:id="@+id/iv_bean_seedling_2_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/shumiao"/>
+
+                <TextView
+                    android:id="@+id/tv_bean_seedling_2_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/qipao"
+                    android:gravity="center"
+                    android:text="12.00"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:visibility="gone"/>
+
+            </RelativeLayout>
+        </LinearLayout>
+        <!--第3行 3个豆苗-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:layout_marginTop="33dp"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/rl_bean_seedling_3_1"
+                android:layout_width="50dp"
+                android:layout_height="51dp"
+                android:layout_marginLeft="88dp">
+
+                <ImageView
+                    android:id="@+id/iv_bean_seedling_3_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/shumiao"/>
+
+                <TextView
+                    android:id="@+id/tv_bean_seedling_3_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/qipao"
+                    android:gravity="center"
+                    android:text="12.00"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:visibility="gone"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_bean_seedling_3_2"
+                android:layout_width="50dp"
+                android:layout_height="51dp"
+                android:layout_marginLeft="28dp">
+
+                <ImageView
+                    android:id="@+id/iv_bean_seedling_3_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/shumiao"/>
+
+                <TextView
+                    android:id="@+id/tv_bean_seedling_3_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/qipao"
+                    android:gravity="center"
+                    android:text="12.00"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:visibility="gone"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_bean_seedling_3_3"
+                android:layout_width="50dp"
+                android:layout_height="51dp"
+                android:layout_marginLeft="28dp">
+
+                <ImageView
+                    android:id="@+id/iv_bean_seedling_3_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="3dp"
+                    android:src="@drawable/shumiao"/>
+
+                <TextView
+                    android:id="@+id/tv_bean_seedling_3_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/qipao"
+                    android:gravity="center"
+                    android:text="12.00"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:visibility="gone"/>
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <!--第4行 3个豆苗 + 4-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:layout_marginTop="49dp"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/rl_bean_seedling_4_1"
+                android:layout_width="50dp"
+                android:layout_height="51dp"
+                android:layout_marginLeft="52dp">
+
+                <ImageView
+                    android:id="@+id/iv_bean_seedling_4_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/shumiao"/>
+
+                <TextView
+                    android:id="@+id/tv_bean_seedling_4_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/qipao"
+                    android:gravity="center"
+                    android:text="12.00"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:visibility="gone"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_bean_seedling_4_2"
+                android:layout_width="50dp"
+                android:layout_height="51dp"
+                android:layout_marginLeft="28dp">
+
+                <ImageView
+                    android:id="@+id/iv_bean_seedling_4_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="3dp"
+                    android:src="@drawable/shumiao"/>
+
+                <TextView
+                    android:id="@+id/tv_bean_seedling_4_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/qipao"
+                    android:gravity="center"
+                    android:text="12.00"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:visibility="gone"/>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_bean_seedling_4_3"
+                android:layout_width="50dp"
+                android:layout_height="51dp"
+                android:layout_marginLeft="25dp">
+
+                <ImageView
+                    android:id="@+id/iv_bean_seedling_4_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="5dp"
+                    android:src="@drawable/shumiao"/>
+
+                <TextView
+                    android:id="@+id/tv_bean_seedling_4_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/qipao"
+                    android:gravity="center"
+                    android:text="12.00"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:visibility="gone"/>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_bean_seedling_4_4"
+                android:layout_width="50dp"
+                android:layout_height="51dp"
+                android:layout_marginLeft="25dp">
+
+                <ImageView
+                    android:id="@+id/iv_bean_seedling_4_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="5dp"
+                    android:src="@drawable/shumiao"/>
+
+                <TextView
+                    android:id="@+id/tv_bean_seedling_4_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/qipao"
+                    android:gravity="center"
+                    android:text="12.00"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:visibility="gone"/>
+
+
+            </RelativeLayout>
+        </LinearLayout>
+
+
+        <!--第5行 3个豆苗-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:layout_marginTop="66dp"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/rl_bean_seedling_5_1"
+                android:layout_width="50dp"
+                android:layout_height="51dp"
+                android:layout_marginLeft="90dp">
+
+                <ImageView
+                    android:id="@+id/iv_bean_seedling_5_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/shumiao"/>
+
+                <TextView
+                    android:id="@+id/tv_bean_seedling_5_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/qipao"
+                    android:gravity="center"
+                    android:text="12.00"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:visibility="gone"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_bean_seedling_5_2"
+                android:layout_width="50dp"
+                android:layout_height="51dp"
+                android:layout_marginLeft="28dp">
+
+                <ImageView
+                    android:id="@+id/iv_bean_seedling_5_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="3dp"
+                    android:src="@drawable/shumiao"/>
+
+                <TextView
+                    android:id="@+id/tv_bean_seedling_5_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/qipao"
+                    android:gravity="center"
+                    android:text="12.00"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:visibility="gone"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_bean_seedling_5_3"
+                android:layout_width="50dp"
+                android:layout_height="51dp"
+                android:layout_marginLeft="26dp">
+
+                <ImageView
+                    android:id="@+id/iv_bean_seedling_5_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="2dp"
+                    android:src="@drawable/shumiao"/>
+
+                <TextView
+                    android:id="@+id/tv_bean_seedling_5_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/qipao"
+                    android:gravity="center"
+                    android:text="12.00"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:visibility="gone"/>
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <!--第6行 3个豆苗 + 4-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:layout_marginTop="82dp"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/rl_bean_seedling_6_1"
+                android:layout_width="50dp"
+                android:layout_height="51dp"
+                android:layout_marginLeft="52dp">
+
+                <ImageView
+                    android:id="@+id/iv_bean_seedling_6_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/shumiao"/>
+
+                <TextView
+                    android:id="@+id/tv_bean_seedling_6_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/qipao"
+                    android:gravity="center"
+                    android:text="12.00"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:visibility="gone"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_bean_seedling_6_2"
+                android:layout_width="50dp"
+                android:layout_height="51dp"
+                android:layout_marginLeft="28dp">
+
+                <ImageView
+                    android:id="@+id/iv_bean_seedling_6_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="3dp"
+                    android:src="@drawable/shumiao"/>
+
+                <TextView
+                    android:id="@+id/tv_bean_seedling_6_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/qipao"
+                    android:gravity="center"
+                    android:text="12.00"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:visibility="gone"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_bean_seedling_6_3"
+                android:layout_width="50dp"
+                android:layout_height="51dp"
+                android:layout_marginLeft="25dp">
+
+                <ImageView
+                    android:id="@+id/iv_bean_seedling_6_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="1dp"
+                    android:src="@drawable/shumiao"/>
+
+                <TextView
+                    android:id="@+id/tv_bean_seedling_6_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/qipao"
+                    android:gravity="center"
+                    android:text="12.00"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:visibility="gone"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_bean_seedling_6_4"
+                android:layout_width="50dp"
+                android:layout_height="51dp"
+                android:layout_marginLeft="25dp">
+
+                <ImageView
+                    android:id="@+id/iv_bean_seedling_6_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="1dp"
+                    android:src="@drawable/shumiao"/>
+
+                <TextView
+                    android:id="@+id/tv_bean_seedling_6_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/qipao"
+                    android:gravity="center"
+                    android:text="12.00"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:visibility="gone"/>
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <!--第7行 2个豆苗+3.4.5-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:layout_marginTop="98dp"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/rl_bean_seedling_7_1"
+                android:layout_width="50dp"
+                android:layout_height="51dp"
+                android:layout_marginLeft="12dp">
+
+                <ImageView
+                    android:id="@+id/iv_bean_seedling_7_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/shumiao"/>
+
+                <TextView
+                    android:id="@+id/tv_bean_seedling_7_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/qipao"
+                    android:gravity="center"
+                    android:text="12.00"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:visibility="gone"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_bean_seedling_7_2"
+                android:layout_width="50dp"
+                android:layout_height="51dp"
+                android:layout_marginLeft="28dp">
+
+                <ImageView
+                    android:id="@+id/iv_bean_seedling_7_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="3dp"
+                    android:src="@drawable/shumiao"/>
+
+                <TextView
+                    android:id="@+id/tv_bean_seedling_7_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/qipao"
+                    android:gravity="center"
+                    android:text="12.00"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:visibility="gone"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_bean_seedling_7_3"
+                android:layout_width="50dp"
+                android:layout_height="51dp"
+                android:layout_marginLeft="28dp">
+
+                <ImageView
+                    android:id="@+id/iv_bean_seedling_7_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="3dp"
+                    android:src="@drawable/shumiao"/>
+
+                <TextView
+                    android:id="@+id/tv_bean_seedling_7_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/qipao"
+                    android:gravity="center"
+                    android:text="12.00"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:visibility="gone"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_bean_seedling_7_4"
+                android:layout_width="50dp"
+                android:layout_height="51dp"
+                android:layout_marginLeft="28dp">
+
+                <ImageView
+                    android:id="@+id/iv_bean_seedling_7_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="3dp"
+                    android:src="@drawable/shumiao"/>
+
+                <TextView
+                    android:id="@+id/tv_bean_seedling_7_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/qipao"
+                    android:gravity="center"
+                    android:text="12.00"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:visibility="gone"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_bean_seedling_7_5"
+                android:layout_width="50dp"
+                android:layout_height="51dp"
+                android:layout_marginLeft="18dp">
+
+                <ImageView
+                    android:id="@+id/iv_bean_seedling_7_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="3dp"
+                    android:src="@drawable/shumiao"/>
+
+                <TextView
+                    android:id="@+id/tv_bean_seedling_7_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/qipao"
+                    android:gravity="center"
+                    android:text="12.00"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:visibility="gone"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <!--第8行 1个豆苗  + 2.3.4-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:layout_marginTop="114dp"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/rl_bean_seedling_8_1"
+                android:layout_width="50dp"
+                android:layout_height="51dp"
+                android:layout_marginLeft="52dp">
+
+                <ImageView
+                    android:id="@+id/iv_bean_seedling_8_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/shumiao"/>
+
+                <TextView
+                    android:id="@+id/tv_bean_seedling_8_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/qipao"
+                    android:gravity="center"
+                    android:text="12.00"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:visibility="gone"/>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_bean_seedling_8_2"
+                android:layout_width="50dp"
+                android:layout_height="51dp"
+                android:layout_marginLeft="28dp">
+
+                <ImageView
+                    android:id="@+id/iv_bean_seedling_8_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/shumiao"/>
+
+                <TextView
+                    android:id="@+id/tv_bean_seedling_8_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/qipao"
+                    android:gravity="center"
+                    android:text="12.00"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:visibility="gone"/>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_bean_seedling_8_3"
+                android:layout_width="50dp"
+                android:layout_height="51dp"
+                android:layout_marginLeft="28dp">
+
+                <ImageView
+                    android:id="@+id/iv_bean_seedling_8_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/shumiao"/>
+
+                <TextView
+                    android:id="@+id/tv_bean_seedling_8_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/qipao"
+                    android:gravity="center"
+                    android:text="12.00"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:visibility="gone"/>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_bean_seedling_8_4"
+                android:layout_width="50dp"
+                android:layout_height="51dp"
+                android:layout_marginLeft="28dp">
+
+                <ImageView
+                    android:id="@+id/iv_bean_seedling_8_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/shumiao"/>
+
+                <TextView
+                    android:id="@+id/tv_bean_seedling_8_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/qipao"
+                    android:gravity="center"
+                    android:text="12.00"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:visibility="gone"/>
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+        <!--第9行 5个豆苗  -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:layout_marginTop="130dp"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/rl_bean_seedling_9_1"
+                android:layout_width="50dp"
+                android:layout_height="51dp"
+                android:layout_marginLeft="12dp">
+
+                <ImageView
+                    android:id="@+id/iv_bean_seedling_9_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/shumiao"/>
+
+                <TextView
+                    android:id="@+id/tv_bean_seedling_9_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/qipao"
+                    android:gravity="center"
+                    android:text="12.00"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:visibility="gone"/>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_bean_seedling_9_2"
+                android:layout_width="50dp"
+                android:layout_height="51dp"
+                android:layout_marginLeft="28dp">
+
+                <ImageView
+                    android:id="@+id/iv_bean_seedling_9_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/shumiao"/>
+
+                <TextView
+                    android:id="@+id/tv_bean_seedling_9_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/qipao"
+                    android:gravity="center"
+                    android:text="12.00"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:visibility="gone"/>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_bean_seedling_9_3"
+                android:layout_width="50dp"
+                android:layout_height="51dp"
+                android:layout_marginLeft="28dp">
+
+                <ImageView
+                    android:id="@+id/iv_bean_seedling_9_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/shumiao"/>
+
+                <TextView
+                    android:id="@+id/tv_bean_seedling_9_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/qipao"
+                    android:gravity="center"
+                    android:text="12.00"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:visibility="gone"/>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_bean_seedling_9_4"
+                android:layout_width="50dp"
+                android:layout_height="51dp"
+                android:layout_marginLeft="28dp">
+
+                <ImageView
+                    android:id="@+id/iv_bean_seedling_9_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/shumiao"/>
+
+                <TextView
+                    android:id="@+id/tv_bean_seedling_9_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/qipao"
+                    android:gravity="center"
+                    android:text="12.00"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:visibility="gone"/>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_bean_seedling_9_5"
+                android:layout_width="50dp"
+                android:layout_height="51dp"
+                android:layout_marginLeft="20dp">
+
+                <ImageView
+                    android:id="@+id/iv_bean_seedling_9_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/shumiao"/>
+
+                <TextView
+                    android:id="@+id/tv_bean_seedling_9_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/qipao"
+                    android:gravity="center"
+                    android:text="12.00"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:visibility="gone"/>
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+        <!--第10行 4个豆苗  -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:layout_marginTop="146dp"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/rl_bean_seedling_10_1"
+                android:layout_width="50dp"
+                android:layout_height="51dp"
+                android:layout_marginLeft="52dp">
+
+                <ImageView
+                    android:id="@+id/iv_bean_seedling_10_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/shumiao"/>
+
+                <TextView
+                    android:id="@+id/tv_bean_seedling_10_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/qipao"
+                    android:gravity="center"
+                    android:text="12.00"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:visibility="gone"/>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_bean_seedling_10_2"
+                android:layout_width="50dp"
+                android:layout_height="51dp"
+                android:layout_marginLeft="28dp">
+
+                <ImageView
+                    android:id="@+id/iv_bean_seedling_10_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/shumiao"/>
+
+                <TextView
+                    android:id="@+id/tv_bean_seedling_10_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/qipao"
+                    android:gravity="center"
+                    android:text="12.00"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:visibility="gone"/>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_bean_seedling_10_3"
+                android:layout_width="50dp"
+                android:layout_height="51dp"
+                android:layout_marginLeft="28dp">
+
+                <ImageView
+                    android:id="@+id/iv_bean_seedling_10_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/shumiao"/>
+
+                <TextView
+                    android:id="@+id/tv_bean_seedling_10_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/qipao"
+                    android:gravity="center"
+                    android:text="12.00"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:visibility="gone"/>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_bean_seedling_10_4"
+                android:layout_width="50dp"
+                android:layout_height="51dp"
+                android:layout_marginLeft="28dp">
+
+                <ImageView
+                    android:id="@+id/iv_bean_seedling_10_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/shumiao"/>
+
+                <TextView
+                    android:id="@+id/tv_bean_seedling_10_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/qipao"
+                    android:gravity="center"
+                    android:text="12.00"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:visibility="gone"/>
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <!--第11行 5个豆苗  -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:layout_marginTop="160dp"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/rl_bean_seedling_11_1"
+                android:layout_width="50dp"
+                android:layout_height="51dp"
+                android:layout_marginLeft="12dp">
+
+                <ImageView
+                    android:id="@+id/iv_bean_seedling_11_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/shumiao"/>
+
+                <TextView
+                    android:id="@+id/tv_bean_seedling_11_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/qipao"
+                    android:gravity="center"
+                    android:text="12.00"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:visibility="gone"/>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_bean_seedling_11_2"
+                android:layout_width="50dp"
+                android:layout_height="51dp"
+                android:layout_marginLeft="28dp">
+
+                <ImageView
+                    android:id="@+id/iv_bean_seedling_11_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/shumiao"/>
+
+                <TextView
+                    android:id="@+id/tv_bean_seedling_11_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/qipao"
+                    android:gravity="center"
+                    android:text="12.00"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:visibility="gone"/>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_bean_seedling_11_3"
+                android:layout_width="50dp"
+                android:layout_height="51dp"
+                android:layout_marginLeft="28dp">
+
+                <ImageView
+                    android:id="@+id/iv_bean_seedling_11_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/shumiao"/>
+
+                <TextView
+                    android:id="@+id/tv_bean_seedling_11_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/qipao"
+                    android:gravity="center"
+                    android:text="12.00"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:visibility="gone"/>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_bean_seedling_11_4"
+                android:layout_width="50dp"
+                android:layout_height="51dp"
+                android:layout_marginLeft="28dp">
+
+                <ImageView
+                    android:id="@+id/iv_bean_seedling_11_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/shumiao"/>
+
+                <TextView
+                    android:id="@+id/tv_bean_seedling_11_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/qipao"
+                    android:gravity="center"
+                    android:text="12.00"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:visibility="gone"/>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_bean_seedling_11_5"
+                android:layout_width="50dp"
+                android:layout_height="51dp"
+                android:layout_marginLeft="20dp">
+
+                <ImageView
+                    android:id="@+id/iv_bean_seedling_11_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/shumiao"/>
+
+                <TextView
+                    android:id="@+id/tv_bean_seedling_11_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/qipao"
+                    android:gravity="center"
+                    android:text="12.00"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:visibility="gone"/>
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/transparency">
+
+        <!-- begin line 1 -->
+
+        <RelativeLayout
+            android:id="@+id/order_search_sing"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+
+            android:clickable="true"
+            android:visibility="visible">
+
+            <ImageView
+                android:id="@+id/iv_location_img"
+                android:layout_width="14dp"
+                android:layout_height="17dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/home_location"/>
+
+            <TextView
+                android:id="@+id/tv_area_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@id/iv_location_img"
+                android:text="城市"
+                android:textColor="@color/tv_33"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:id="@+id/iv_pull_down_img"
+                android:layout_width="14dp"
+                android:layout_height="17dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@id/tv_area_address"
+                android:src="@drawable/home_city_selection"
+                android:visibility="gone"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/btn_shape_yellow"
+
+                android:drawablePadding="5dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingBottom="5dp"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"
+                android:paddingTop="5dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/shoe_shaped_gold_ingot_top"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+
+
+                    android:text=""
+                    android:textColor="@color/tv_33"
+                    android:textSize="15sp"/>
+
+                <!--<TextView
+                    android:id="@+id/tv_bird_money"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0.000"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"/>-->
+                <com.shuangpin.rich.tool.RiseNumberTextView
+                    android:id="@+id/tv_bird_money"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0.000"
+                    android:textColor="@color/tv_33"
+                    />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/tv_city_promotion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="14dp"
+                android:text="同城推广"
+                android:textColor="@color/white"
+
+                android:textSize="14sp"
+                android:visibility="gone"/>
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/iv_cash_lucky_draw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/cash_lucky_draw"/>
+
+    <ImageView
+        android:id="@+id/iv_gong_lv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/iv_cash_lucky_draw"
+        android:src="@drawable/how_to_play"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:visibility="gone">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="45dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_home_put_the_bird"
+                android:layout_width="67dp"
+                android:layout_height="26dp"
+                android:background="@drawable/home_put_the_bird_big"
+                android:gravity="center"
+                android:text="发元宝"
+                android:textColor="@color/white"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/tv_home_for_the_bird"
+                android:layout_width="67dp"
+                android:layout_height="26dp"
+                android:background="@drawable/home_for_the_bird"
+                android:gravity="center"
+                android:text="寻元宝"
+                android:textColor="@color/white"
+                android:textSize="16sp"/>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_announcement"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@id/title_layout"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/btn_shape_transparency"
+        android:visibility="gone"
+        >
+
+        <ImageView
+            android:id="@+id/iv_notice"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/new_pic_tag"/>
+
+        <com.shuangpin.rich.ui.widget.NoticeView
+            android:id="@+id/notice_view"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="48dp"
+            android:gravity="center_vertical"
+            android:text=""/>
+
+        <ImageView
+            android:id="@+id/iv_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/home_more_arrows"/>
+
+        <TextView
+            android:id="@+id/tv_wait_points"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="30dp"
+            android:text="更多"
+            android:textColor="@color/tv_858bf5"
+            android:textSize="14sp"/>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/tv_home_refresh"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="180dp"
+        android:layout_marginRight="5dp"
+        android:src="@drawable/shua_xin"/>
+
+    <ImageButton
+        android:id="@+id/tv_map"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="60dp"
+        android:background="@drawable/place_yuan_bao"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:visibility="gone"/>
+
+    <ImageButton
+        android:id="@+id/tv_list"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/place_yuan_bao"
+        android:visibility="gone"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_bird_root"
+        android:layout_width="40dp"
+        android:layout_height="40dp"></RelativeLayout>
+
+</RelativeLayout>

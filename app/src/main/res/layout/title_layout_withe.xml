@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/title_layout"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="@color/white">
+
+    <!-- begin line 1 -->
+
+    <LinearLayout
+        android:id="@+id/left_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:background="@color/transparency"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center_vertical"
+        android:minWidth="40dip"
+        android:orientation="horizontal"
+        android:paddingLeft="15dip"
+        android:paddingRight="20dip">
+
+        <!-- 左侧返回按钮 -->
+        <TextView
+            android:id="@+id/back_icon"
+            android:layout_width="13dp"
+            android:layout_height="20dp"
+            android:background="@drawable/image_back_new"/>
+
+
+    </LinearLayout>
+    <!-- end line 1 -->
+    <LinearLayout
+        android:id="@+id/ll_search_root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="65dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/et_password_white"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/search_icon"/>
+
+        <!-- 搜索框 开始 -->
+        <com.shuangpin.rich.ui.widget.MySearchView
+            android:id="@+id/search_order_layout"
+            android:layout_width="0dp"
+            android:layout_height="28dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:paddingLeft="5dp"
+            />
+
+    </LinearLayout>
+    <!-- begin line 2 -->
+
+    <LinearLayout
+        android:id="@+id/center_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+
+        android:orientation="vertical">
+
+        <!-- 中间title -->
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:hint=""
+            android:maxLines="1"
+            android:maxWidth="180dip"
+            android:textColor="@color/tv_33"
+            android:textSize="16sp"/>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_next_data_publish"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="12dp"
+        android:background="@drawable/btn_select_public"
+        android:text="发布"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/tv_title_confirm"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:text="确定"
+        android:textColor="@color/tv_33"
+        android:textSize="18sp"
+        android:visibility="gone"/>
+
+
+    <TextView
+        android:id="@+id/tv_wan_cheng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:text="完成"
+        android:textColor="@color/tv_33"
+        android:textSize="16sp"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/tv_guize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:maxWidth="180dip"
+        android:text="规则"
+        android:textColor="@color/tv_33"
+        android:textSize="16sp"
+        android:visibility="gone"/>
+
+</RelativeLayout>
+

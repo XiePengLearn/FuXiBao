@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/fl_container"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1" >
+    </FrameLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/view_lines"
+        android:layout_height="2px"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="3dp"/>
+
+
+    <RadioGroup
+        android:id="@+id/rg_content_fragment"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="@color/white"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/rb_content_fragment_home"
+            style="@style/tab_style"
+            android:drawablePadding="7dp"
+            android:drawableTop="@drawable/bar_home_bg"
+            android:text="首页" />
+
+        <RadioButton
+            android:id="@+id/rb_content_fragment_search"
+            style="@style/tab_style"
+            android:drawablePadding="1dp"
+            android:drawableTop="@drawable/bar_search_bg"
+            android:text="当地销售" />
+
+
+
+        <RadioButton
+            android:id="@+id/rb_content_fragment_shopping"
+            style="@style/tab_style"
+            android:drawablePadding="1dp"
+            android:visibility="gone"
+            android:drawableTop="@drawable/bar_shopping_bg"
+            android:text="商城" />
+        <Button
+            android:id="@+id/rb_content_fragment_shopping_button"
+            style="@style/tab_style"
+            android:drawablePadding="1dp"
+            android:layout_marginTop="2dp"
+
+            android:drawableTop="@drawable/bar_shopping_bg"
+            android:text="商城" />
+        <RadioButton
+            android:id="@+id/rb_content_fragment_brand"
+            style="@style/tab_style"
+            android:drawablePadding="3dp"
+            android:drawableTop="@drawable/bar_brand_bg"
+            android:text="发现" />
+
+        <RadioButton
+            android:id="@+id/rb_content_fragment_more"
+            style="@style/tab_style"
+            android:drawablePadding="3dp"
+            android:drawableTop="@drawable/bar_more_bg"
+            android:text="我的" />
+    </RadioGroup>
+
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fitsSystemWindows="true"
+    >
+
+    <include
+        android:id="@+id/include1"
+        layout="@layout/title_layout"/>
+
+
+    <RelativeLayout
+        android:id="@+id/me_is_fabushangpin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/include1"
+        android:visibility="visible">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.shuangpin.rich.ui.fragmentwallet.PagerSlidingTab
+                android:id="@+id/slidingTab"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"/>
+
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/viewPager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+
+
+
+</RelativeLayout>

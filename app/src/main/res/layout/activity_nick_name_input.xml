@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_normal"
+    android:orientation="vertical"
+    >
+
+    <include
+        android:id="@+id/title_layout1"
+        layout="@layout/title_layout"/>
+
+    <com.shuangpin.rich.ui.widget.MyScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_margin="20dp"
+            android:padding="10dp"
+            android:background="@drawable/et_password_white2"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            >
+            <EditText
+                android:id="@+id/et_input_font"
+                android:hint="请输入昵称"
+                android:background="@color/white"
+                android:gravity="left"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </RelativeLayout>
+    </com.shuangpin.rich.ui.widget.MyScrollView>
+</LinearLayout>

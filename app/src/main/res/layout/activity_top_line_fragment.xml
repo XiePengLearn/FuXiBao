@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+    >
+
+
+    <LinearLayout
+        android:id="@+id/ll_shopping_title"
+        android:layout_width="match_parent"
+        android:paddingLeft="40dp"
+        android:paddingRight="30dp"
+        android:background="@color/white"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+
+            android:id="@+id/ll_agency_map"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="合伙人地图"
+                android:textColor="@color/theme_color"
+                android:textSize="16sp"/>
+
+            <View
+                android:id="@+id/line_map"
+                android:layout_width="40dp"
+                android:layout_height="2dp"
+                android:layout_marginTop="3dp"
+                android:background="@color/theme_color"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:id="@+id/ll_agency_list"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="合伙人列表"
+                android:textColor="@color/theme_color"
+                android:textSize="16sp"/>
+
+            <View
+                android:id="@+id/line_list"
+                android:layout_width="40dp"
+                android:layout_height="2dp"
+                android:layout_marginTop="3dp"
+                android:background="@color/theme_color"
+                android:visibility="invisible"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/left_btn"
+        android:layout_width="40dp"
+        android:gravity="center"
+        android:layout_height="40dp"
+        android:background="@color/transparency"
+        >
+
+        <!-- 左侧返回按钮 -->
+        <TextView
+            android:id="@+id/back_icon"
+            android:layout_width="13dp"
+
+            android:layout_height="20dp"
+            android:background="@drawable/image_back_new"/>
+
+
+    </LinearLayout>
+
+
+    <com.baidu.mapapi.map.MapView
+        android:id="@+id/bmapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/ll"
+        android:layout_below="@id/ll_shopping_title"
+        android:clickable="true">
+
+    </com.baidu.mapapi.map.MapView>
+
+    <ListView
+        android:id="@+id/lv_list_map_detail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:divider="@null"
+        android:layout_below="@id/ll_shopping_title"
+        android:layout_marginTop="2dp"
+        android:scrollbars="none">
+
+    </ListView>
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/bt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="复位"/>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="卫星"/>
+
+        <Button
+            android:id="@+id/buttons"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="普通"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+</RelativeLayout>

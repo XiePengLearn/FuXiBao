@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@color/bg_normal"
+              android:orientation="vertical">
+
+    <!-- The PullToRefreshGridView replaces a standard GridView widget. -->
+
+    <!-- 标题 -->
+
+
+    <include layout="@layout/title_layout"/>
+
+    <LinearLayout
+        android:id="@+id/ll_root_item"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="接受者"
+            android:textColor="@color/tv_33"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="转出粉丝"
+            android:textColor="@color/tv_33"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="转前粉丝"
+            android:textColor="@color/tv_33"
+            android:textSize="14sp"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="转后粉丝"
+            android:textColor="@color/tv_33"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="时间"
+            android:textColor="@color/tv_33"
+            android:textSize="14sp"/>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/view_lines"/>
+    <com.handmark.pulltorefresh.library.PullToRefreshHeadGridView
+        android:id="@+id/pull_refresh_grid"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+
+        android:scrollbars="none"
+        />
+</LinearLayout>

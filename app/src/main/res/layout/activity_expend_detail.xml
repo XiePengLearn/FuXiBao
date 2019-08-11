@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_normal"
+    >
+
+    <include
+        android:id="@+id/title_layout1"
+        layout="@layout/title_layout"/>
+
+    <LinearLayout
+        android:id="@+id/ll_title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/title_layout1"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="时间"
+            android:textColor="@color/tv_22"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="支出类型"
+            android:textColor="@color/tv_22"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="支出金额"
+            android:textColor="@color/tv_22"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+
+
+
+    <com.handmark.pulltorefresh.library.PullToRefreshHeadGridView
+        android:id="@+id/lv_list_point_detail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/ll_title_bar"
+        android:layout_marginTop="1px"
+        android:scrollbars="none"
+        />
+    <RelativeLayout
+        android:id="@+id/rl_point_no_data"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/ll_title_bar"
+        android:background="@color/white"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:drawableTop="@drawable/no_product"
+            android:text="还没有任何数据"
+            android:textColor="@color/sys_font_color_deep"
+            android:textSize="18sp"/>
+    </RelativeLayout>
+
+
+</RelativeLayout>

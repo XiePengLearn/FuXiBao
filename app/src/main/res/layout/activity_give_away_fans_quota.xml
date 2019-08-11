@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/ll_parent"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:fitsSystemWindows="true"
+              android:orientation="vertical">
+
+    <!-- 标题 -->
+
+    <include layout="@layout/title_layout"/>
+
+
+    <com.shuangpin.rich.ui.widget.MyScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/et_password_white"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="对方手机号 :"
+                    android:textColor="@color/tv_33"
+                    android:textSize="14sp"/>
+
+                <EditText
+                    android:id="@+id/et_business_phone_number"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="3"
+                    android:background="@color/transparency"
+                    android:textCursorDrawable="@drawable/a_color_cursor"
+                    android:hint="请输入手机号"
+                    android:inputType="number"
+                    android:text=""
+                    android:textSize="14sp"
+                    />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/et_password_white"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="对方ID :"
+                    android:textColor="@color/tv_33"
+                    android:textSize="14sp"/>
+
+                <EditText
+                    android:id="@+id/et_business_id_card_no"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="3"
+                    android:background="@color/transparency"
+                    android:hint="请输入用户ID"
+                    android:inputType="number"
+                    android:text=""
+                    android:textCursorDrawable="@drawable/a_color_cursor"
+                    android:digits="0123456789"
+                    android:textSize="14sp"
+                    />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/et_password_white"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="转让粉丝数 :"
+                    android:textColor="@color/tv_33"
+                    android:textSize="14sp"/>
+
+                <EditText
+                    android:id="@+id/et_business_Invitation_agent_number"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="3"
+                    android:inputType="number"
+                    android:textCursorDrawable="@drawable/a_color_cursor"
+                    android:background="@color/transparency"
+                    android:hint="请输入转让粉丝数额"
+                    android:textSize="14sp"
+                    />
+
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="4dp"
+                android:text="温馨提示:对方必须绑定手机号哦"
+                android:paddingLeft="@dimen/goods_release_linear_padding"
+                android:textColor="@color/tv_88ff4000"
+                android:textSize="13sp"/>
+            <Button
+                android:id="@+id/btn_business_submit_audit"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="168dp"
+                android:background="@drawable/button_put_the_bird"
+                android:text="确定"
+                android:textColor="@color/white"
+                android:textSize="18sp"/>
+
+
+        </LinearLayout>
+    </com.shuangpin.rich.ui.widget.MyScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/tv22ff"
+        >
+
+        <!-- begin line 1 -->
+
+        <LinearLayout
+            android:id="@+id/left_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@color/transparency"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center_vertical"
+            android:minWidth="40dip"
+            android:orientation="horizontal"
+            android:paddingLeft="15dip"
+            android:paddingRight="20dip">
+
+            <!-- 左侧返回按钮 -->
+            <TextView
+                android:id="@+id/back_icon"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:background="@drawable/guanbi_close"/>
+
+
+        </LinearLayout>
+        <!-- end line 1 -->
+
+
+        <!-- begin line 2 -->
+
+        <LinearLayout
+            android:id="@+id/center_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+
+            android:orientation="vertical">
+
+            <!-- 中间title -->
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:hint=""
+                android:maxLines="1"
+                android:maxWidth="180dip"
+                android:textColor="@color/white"
+                android:textSize="16sp"/>
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/lv_list_dialog_detail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="2dp"
+        android:scrollbars="none">
+
+    </ListView>
+</LinearLayout>

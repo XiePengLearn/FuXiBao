@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:luckpan="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        >
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp">
+
+                <ImageView
+                    android:id="@+id/iv_draw_close"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="16dp"
+                    android:padding="5dp"
+
+                    android:src="@drawable/draw_close"/>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:id="@+id/rl_luckpan_layout"
+                android:layout_marginTop="60dp"
+                android:layout_marginRight="16dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="430dp"
+
+                    android:background="@drawable/draw_a_lottery_bac"/>
+
+
+
+
+            </RelativeLayout>
+
+
+            <com.shuangpin.rich.ui.cashluckdraw.LuckPanLayout
+                android:id="@+id/luckpan_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="105dp"
+                android:background="@android:color/transparent"
+                android:gravity="center_horizontal"
+                >
+
+                <com.shuangpin.rich.ui.cashluckdraw.RotatePan
+                    android:id="@+id/rotatePan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    luckpan:icons="@array/icons"
+
+                    luckpan:names="@array/names"
+                    luckpan:pannum="8"/>
+
+                <ImageView
+                    android:id="@+id/go"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:src="@drawable/node"
+                    android:tag="startbtn"
+                    />
+
+
+            </com.shuangpin.rich.ui.cashluckdraw.LuckPanLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@id/rl_luckpan_layout"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="-45dp"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/tv_view_rules"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="3dp"
+                    android:drawableRight="@drawable/left_arrows2"
+                    android:gravity="center"
+                    android:layout_alignParentBottom="true"
+                    android:padding="1dp"
+                    android:text="查看规则"
+                    android:textColor="@color/white"
+                    android:textSize="12sp"/>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="26dp"
+                android:layout_below="@id/rl_luckpan_layout"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="-26dp">
+
+
+                <TextView
+                    android:id="@+id/tv_balance_draw_lottery"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="余额抽奖"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:id="@+id/tv_coding_draw_lottery"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="编码抽奖"
+                    android:textColor="@color/tv_E5E5E5"
+                    android:textSize="15sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="7dp"
+                android:layout_below="@id/rl_luckpan_layout"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="-7dp">
+
+
+                <ImageView
+                    android:id="@+id/iv_balance_draw_lottery"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:src="@drawable/triangle_white"
+
+                    />
+
+                <ImageView
+                    android:id="@+id/iv_coding_draw_lottery"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:src="@drawable/triangle_white"
+                    android:visibility="invisible"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_coding_draw"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_below="@id/rl_luckpan_layout"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/btn_shape_solid_white"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="26dp"
+                    android:layout_marginRight="26dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/btn_shape_gry"
+                    android:orientation="horizontal">
+
+
+                    <EditText
+                        android:id="@+id/et_coding_draw"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="20dp"
+                        android:layout_weight="1"
+                        android:background="@color/transparency"
+                        android:hint="请输入包装罐内编码"
+                        android:textCursorDrawable="@drawable/a_color_cursor"
+                        android:textSize="14sp"
+                        />
+
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_coding_draw"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="26dp"
+                    android:layout_marginRight="26dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/btn_shape_solid_yellow"
+                    android:text="立即抽奖"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/ll_balance_draw"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_below="@id/rl_luckpan_layout"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/btn_shape_solid_white"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="26dp"
+                    android:layout_marginRight="26dp"
+                    android:background="@drawable/balance_draw_bac"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/tv_balance_draw_own"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="当前余额\n0"
+                        android:textColor="@color/tv_153"
+                        android:textSize="13sp"/>
+
+                    <TextView
+                        android:id="@+id/tv_one_time_draw"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="单次抽奖\n100元/次"
+                        android:textColor="@color/tv_153"
+                        android:textSize="13sp"/>
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_balance_draw"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="26dp"
+                    android:layout_marginRight="26dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/btn_shape_solid_yellow"
+                    android:text="立即抽奖"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"/>
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+</FrameLayout>

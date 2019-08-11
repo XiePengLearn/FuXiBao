@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+
+    <LinearLayout
+        android:id="@+id/ll_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line_top"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/tv_title"
+            layout="@layout/title_layout_withe"/>
+        <View
+            style="@style/line_bg_style_black"
+            />
+        <!--发布广告-->
+        <RelativeLayout
+            android:id="@+id/rl_merchant_function1"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+
+
+            >
+
+            <ImageView
+                android:id="@+id/iv_pick_a_bird_returns"
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:src="@drawable/mine_pick_a_bird_returns"
+                android:visibility="gone"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/iv_pick_a_bird_returns"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="16dp"
+                android:text="发布广告"
+                android:textColor="@color/tv_22"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:layout_width="9dp"
+                android:layout_height="18dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/arrow3"/>
+        </RelativeLayout>
+
+        <View
+            style="@style/line_bg_style_black"
+            android:layout_marginLeft="22dp"/>
+        <!--商户信息修改-->
+        <RelativeLayout
+            android:id="@+id/rl_merchant_function2"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+
+
+            >
+
+            <ImageView
+                android:id="@+id/iv_fans_earnings"
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:src="@drawable/mine_fans_earnings"
+                android:visibility="gone"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/iv_fans_earnings"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="16dp"
+                android:text="合伙人广告位信息修改"
+                android:textColor="@color/tv_22"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:layout_width="9dp"
+                android:layout_height="18dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/arrow3"/>
+        </RelativeLayout>
+
+
+
+
+        <View
+            style="@style/line_bg_style_black"
+            android:layout_marginLeft="22dp"
+            android:visibility="gone"/>
+
+
+        <!--商户收款-->
+        <RelativeLayout
+            android:id="@+id/rl_merchant_function3"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+
+            android:layout_marginRight="10dp"
+            android:visibility="gone"
+
+
+            >
+
+            <ImageView
+                android:id="@+id/iv_escalation_of_micro"
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:src="@drawable/mine_business_cooperation"
+                android:visibility="gone"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/iv_escalation_of_micro"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="16dp"
+                android:text="合伙人收款"
+
+                android:textColor="@color/tv_22"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="9dp"
+                android:layout_height="18dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/arrow3"/>
+
+            <TextView
+                android:id="@+id/tv_love_points"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@id/imageView3"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:text=""
+                android:textColor="@color/tv_aa"
+                android:textSize="14sp"/>
+        </RelativeLayout>
+
+
+
+
+
+
+
+
+        <View
+            style="@style/line_bg_style_black"
+            android:layout_marginLeft="22dp"
+            android:visibility="gone"/>
+        <!--线下商城-->
+        <RelativeLayout
+            android:id="@+id/rl_merchant_function4"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:visibility="gone"
+
+
+            >
+
+            <ImageView
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:src="@drawable/mine_business_cooperation"
+                android:visibility="gone"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="16dp"
+                android:text="线下商城"
+
+                android:textColor="@color/tv_22"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="9dp"
+                android:layout_height="18dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/arrow3"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:text=""
+                android:textColor="@color/tv_aa"
+                android:textSize="14sp"/>
+        </RelativeLayout>
+
+        <View
+            style="@style/line_bg_style_black"
+            android:layout_marginLeft="22dp"
+            android:visibility="gone"/>
+        <!--升级大微-->
+
+
+        <View
+            style="@style/line_bg_style_black"
+            android:layout_marginLeft="52dp"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

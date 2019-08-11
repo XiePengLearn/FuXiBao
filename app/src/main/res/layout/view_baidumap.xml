@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="-10dp">
+
+        <ImageView
+            android:id="@+id/iv_have_bird"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginBottom="-10dp"
+            android:src="@drawable/home_towards_the_right_brid"/>
+
+        <ImageView
+            android:id="@+id/iv_have_hi"
+            android:layout_width="30dp"
+            android:layout_height="25dp"
+            android:layout_marginBottom="-3dp"
+            android:visibility="invisible"
+            android:padding="2dp"
+            android:src="@drawable/for_the_bird_hi"/>
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="4dp"
+
+        android:background="@drawable/shopping_advertising_board"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:id="@+id/iv_header_root"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/imageview_shape_cycle"
+            android:gravity="center"
+            >
+
+            <ImageView
+                android:id="@+id/shopping_advertising_img"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
+
+                android:scaleType="fitXY"
+
+                />
+        </LinearLayout>
+
+
+
+
+
+        <ImageView
+            android:layout_width="38dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="6dp"
+            android:src="@drawable/heise_touming"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:id="@+id/shopping_advertising_title"
+            android:layout_width="30dp"
+            android:layout_height="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+
+            android:layout_marginTop="29dp"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="7sp"/>
+    </RelativeLayout>
+
+
+</LinearLayout>

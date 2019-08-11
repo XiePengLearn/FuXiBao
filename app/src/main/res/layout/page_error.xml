@@ -1,0 +1,58 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/page_iv"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/no_product"/>
+
+        <TextView
+            android:id="@+id/tv_error_text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_below="@id/page_iv"
+
+            android:text="亲,还没有任何数据哦,"
+            android:textColor="@color/sys_font_color_deep"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/tv_error_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_error_text2"
+            android:layout_centerInParent="true"
+
+
+            android:text="去其他地方逛逛吧"
+            android:textColor="@color/sys_font_color_deep"
+            android:textSize="18sp"/>
+
+        <Button
+            android:id="@+id/btn_reload"
+            android:layout_width="wrap_content"
+            android:layout_height="34dp"
+            android:layout_below="@id/tv_error_text"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn_bg"
+            android:ellipsize="end"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:singleLine="true"
+            android:text="@string/load_error"
+            android:textColor="#ff717171"
+            android:textSize="14dp"/>
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="tv_register">#4372e3</color>
+    <color name="tab_tex_color">#999999</color>
+    <color name="tab_tex_press_color">#FB9D51</color>
+    <color name="translate">#0000</color>
+    <color name="theme_color">#ffac00</color>
+    <color name="theme_color66">#66ffac00</color>
+    <color name="theme_color_tra_press">#22ffac00</color>
+    <color name="tv_4a78e8">#4a79e8</color>
+    <color name="tv_5146e8">#5146e8</color>
+    <color name="tv_3ab1f5">#3ab1f5</color>
+    <color name="theme_color_title">#ffffff</color>
+    <color name="theme_color_title_them">#ffac00</color>
+    <color name="theme_color_8bd4fc">#8bd4fc</color>
+    <color name="theme_color_467cef">#467cef</color>
+    <color name="theme_color_3ab1f5">#7baa37</color>
+    <color name="theme_color_5146e8">#5146e8</color>
+
+    <color name="tv_ff7b2e">#ff7b2e</color>
+    <color name="tv_92c8e4">#92c8e4</color>
+    <color name="txt_general_bg">#333333</color>
+    <color name="txt_rectangle_yellow">#ffac00</color>
+    <color name="bg_normal">#eeeeee</color>
+    <color name="tv_858bf5">#858bf5</color>
+    <color name="tv_E5E5E5">#E5E5E5</color>
+    <color name="tv_22">#222222</color>
+    <color name="tv_33">#333333</color>
+    <color name="tv_33_50">#50333333</color>
+    <color name="tv_153">#999999</color>
+    <color name="tv_8033">#80333333</color>
+    <color name="tv_3033">#30333333</color>
+    <color name="tv_1033">#15333333</color>
+    <color name="tv_66">#666666</color>
+    <color name="tv_88">#888888</color>
+    <color name="tv_3088">#30888888</color>
+    <color name="tv_aa">#aaaaaa</color>
+    <color name="tv_44">#444444</color>
+    <color name="tv_99">#999999</color>
+    <color name="tv_2222">#99222222</color>
+    <color name="tv_CAA475">#CAA475</color>
+    <color name="tv_b87d1d">#b87d1d</color>
+    <color name="tv_d69d3a">#d69d3a</color>
+    <color name="tv_fbe814">#fbe814</color>
+    <color name="tv_33d69d3a">#33d69d3a</color>
+    <color name="tv_fdc760">#fdc760</color>
+    <color name="tv_BEA268">#BEA268</color>
+    <color name="home_top_pic_color">#c59a74</color>
+    <color name="hai">#F36103</color>
+    <color name="tv_cc">#cccccc</color>
+    <color name="tv_7c99d6">#7c99d6</color>
+    <color name="tv_4473e3">#4473e3</color>
+    <color name="tv_dda541">#dda541</color>
+    <color name="tv_e7efff">#e7efff</color>
+    <color name="tv_fafafa">#fafafa</color>
+    <color name="tv_c1d5fd">#c1d5fd</color>
+    <color name="tv_5381ed">#5381ed</color>
+    <color name="tv_3d6ddf">#3d6ddf</color>
+    <color name="tv_ff4000">#ff4000</color>
+    <color name="tv_88ff4000">#88ff4000</color>
+    <color name="tv_59">#595959</color>
+    <color name="tv_f6">#f6f6f6</color>
+
+    <color name="tv_ccopy1">#F06292</color>
+    <color name="tv_ccopy2">#9575CD</color>
+    <color name="tv_ccopy3">#E57373</color>
+    <color name="tv_ccopy4">#4FC3F7</color>
+    <color name="tv_ccopy5">#FFF176</color>
+    <color name="tv_ccopy6">#81C784</color>
+    <color name="tv_ccopy7">#006BCE</color>
+
+    <color name="tv_2c0e19">#2C0E19</color>
+
+
+
+
+
+
+    　<color name="transparent_activity">#9000</color>
+
+    <color name="menudialog_divider_color">#ededed</color>
+    <color name="menudialog_pressed_color">#e7e7e7</color>
+    <color name="menudialog_bg_gray">#f5f5f5</color>
+    <color name="bar_normal">#888888</color>
+    <color name="bar_selected">#42110c</color>
+
+
+    <color name="slidingtab_indicatorcolor">#0084FF</color>
+    <color name="slidingtab_indicatorcolor1">#333333</color>
+    <color name="transgray">#33555555</color>
+    <color name="navpage">#FFE1E8EB</color>
+    <color name="result_view">#b0000000</color>
+    <color name="transparency">#00000000</color>
+    <color name="tv22ff">#10000000</color>
+    <color name="tv33ff">#33000000</color>
+    <color name="toast_bg">#66ffffff</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <!-- <color name="gray">#CCCCCC</color> -->
+    <color name="blue_color">#4494CB</color>
+    <color name="bg_blue_color">#366edd</color>
+    <color name="tv_ededed">#ededed</color>
+    <color name="bg_blue_c">#5483ef</color>
+    <color name="bg_blue_color_66">#33366edd</color>
+    <color name="shape_main_list_red">#ea7058</color>
+    <color name="shape_main_list_blue">#3399fe</color>
+    <color name="shape_main_list_yellow">#ef8937</color>
+    <color name="shape_main_list_blueviolet">#8b9ff6</color>
+    <color name="shape_main_list_brilliantblue">#6bcdd0</color>
+    <color name="shape_main_list_green">#72cb9f</color>
+    <color name="gray_black">#1e1e1e</color>
+    <color name="sys_bg_color">#eff4f5</color><!-- 系统背景色 -->
+
+    <color name="font_color">#2d2d2d</color>
+    <color name="top_menu_checked_color">#1A1A1A</color>
+    <color name="order_keyboard_color">#EEEEEE</color>
+    <color name="background_tab_pressed">#6633B5E5</color>
+    <color name="dark_gray">#444444</color>
+    <color name="white">#ffffff</color><!--白色 -->
+    <color name="gray">#eeeeee</color><!--灰色 -->
+
+
+    <color name="tv_7baa37">#7baa37</color><!--绿色 -->
+
+
+
+
+    <color name="red">#ff0000</color><!--红色 -->
+    <color name="red_store_jiage">#f08833</color>
+    <color name="color_featured">#dc3d16</color>
+    <color name="color_recom">#f86e40</color>
+
+    <color name="aliceblue">#f0f8ff</color><!--艾利斯兰 -->
+    <color name="greenyellow">#adff2f</color><!--黄绿色 -->
+    <color name="slategray">#cccc</color><!--灰石色 -->
+    <color name="slateblue">#6a5acd</color><!--石蓝色 -->
+    <color name="royalblue">#4169e1</color><!--皇家蓝 -->
+    <color name="limegreen">#32cd32</color><!--橙绿色 -->
+    <color name="deepskyblue">#00bfff</color><!--深天蓝色 -->
+    <color name="black">#000000</color><!--黑色 -->
+    <color name="transparent">#0000</color><!-- 透明 -->
+    <color name="transparent2">#8000</color><!-- 透明 -->
+    <!-- gzw -->
+    <color name="myblue">#56abe4</color>
+    <color name="login_blue">#32A4D0</color>
+    <color name="tv_585fcf">#33585fcf</color>
+    <color name="tv_1d2d5e">#1d2d5e</color>
+
+    <!-- 上传图片添加的颜色 -->
+
+
+    <color name="back_layout_press_color">#0682c2</color><!-- 返回按钮背景 -->
+    <color name="editor_text_color">#808080</color>
+    <!-- application  color -->
+    <color name="application_deep_gray_black">#828282</color>
+    <color name="returns_commodity">#dea249</color>
+    <!-- 一般指时间 -->
+    <color name="application_gray_black">#a7a7a7</color>
+    <color name="application_red">#b7242f</color>
+    <color name="application_blue">#007bfd</color>
+    <color name="application_title_blue">#28b7fc</color>
+    <color name="application_button_blue">#328dd4</color>
+    <color name="application_transparent_bg">#80000000</color>
+    <color name="application_gray">#EAEAEA</color>
+    <color name="main_shop_settings">#ff5a5a</color>
+
+
+
+    <color name="bg1">#CCCCCC</color>
+    <color name="view_lines">#50b8c4d0</color>
+    <color name="view_lines_main">#aaffffff</color>
+    <color name="solid_red">#f00</color>
+    <color name="red_fonts">#ed1111</color>
+    <color name="white_alpha_percent_45">#73ffffff</color>
+
+    <!-- For main texts -->
+    <!-- For secondary texts -->
+    <!-- For danger cases, such as virus, file delete... -->
+    <!-- For warning cases, such as trashes... -->
+    <!-- For safe cases -->
+    <!-- For suggestions -->
+
+
+    <!-- gzw_数据 -->
+    <color name="tv_06DAFD">#ffb600</color>
+    <color name="pv_color">#6dccfc</color>
+    <color name="uv_color">#faa8f0</color>
+    <color name="conversion_color">#a9bdfa</color>
+    <color name="order_color">#f4a876</color>
+    <color name="order_money_color">#cf449d</color>
+
+    <color name="magazine_add_bookmark_bottom_line">#cccccc</color>
+    <color name="magazine_add_bookmark_button_color">#666666</color>
+    <color name="province_line_border">#C7C7C7</color>
+
+    <color name="gray_deep">#4f5f6e</color><!-- 灰色021 -->
+    <color name="sys_font_color_deep">#4f5f6e</color><!-- 系统字体(深) -->
+    <color name="gray_silver">#9dacba</color><!-- 灰色022 -->
+    <color name="gray_light">#b8c4d0</color><!-- 灰色023 -->
+    <color name="white_deep">#eff4f5</color><!-- 灰色024 -->
+
+    <color name="background">#22FB9D51</color>
+    <color name="secondary_color">#BDBDBD</color>
+
+
+
+    <color name="login_font_color">#999999</color>
+    <color name="login_view_color">#e5e5e5</color>
+    <color name="login_font_login">#ff9c00</color>
+    <color name="btn_yellow">#fb8c3d</color>
+
+    <color name="btn_gray_tixianging">#b7b8b7</color>
+    <color name="bg_color">#eee</color>
+
+
+    <color name="background1">#FFFFFF</color>
+    <color name="split_line">#11112233</color>
+    <color name="text1">#59B29C</color>
+    <color name="text2">#333333</color>
+
+    <color name="color1">#F0F0F0</color>
+    <color name="color2">#FFFFFF</color>
+    <color name="color3">#B0B0B0</color>
+    <color name="color4">#666666</color>
+    <color name="color5">#57C5E8</color>
+    <color name="white_gray">#EEEEEE</color>
+    <!-- 支付成功 -->
+    <color name="oreder_success">#85B200</color>
+    <!--添加修改左边-->
+    <color name="item_left_color">#999999</color>
+
+
+
+
+
+    <!-- 透明色值-->
+    <!-- 红色-->
+
+    <!-- 用于普通级段落信息、引导词、正文标题-->
+    <color name="uthing_color_333333">#333333</color>
+
+    <!-- 用于正文文字-->
+    <color name="uthing_color_666666">#666666</color>
+
+    <!-- 用于辅助、次要的文字信息-->
+    <color name="uthing_color_999999">#999999</color>
+
+    <!-- 用于分割线、分割区域描边-->
+    <color name="uthing_color_e0e0e0">#e0e0e0</color>
+
+    <!-- 用于内容区域的底色-->
+    <color name="uthing_color_f2f2f2">#f2f2f2</color>
+
+    <color name="color_1e1e1e">#1e1e1e</color>
+    <color name="color_353535">#353535</color>
+    <color name="color_E75B5B">#E75B5B</color>
+    <color name="color_FF3636">#FF3636</color>
+    <color name="color_FD8B52">#FD8B52</color>
+    <color name="color_2CA2F4">#2CA2F4</color>
+    <color name="color_969696">#969696</color>
+    <color name="color_d2d2d2">#d2d2d2</color>
+    <color name="color_f6f6f6">#f6f6f6</color>
+    <color name="color_dcdcdc">#dcdcdc</color>
+    <color name="color_F0F1F9">#F0F1F9</color>
+    <color name="color_595959">#595959</color>
+    <color name="text_enabled">#f00</color>
+    <color name="text_disabled">#000</color>
+    <color name="color_323232">#323232</color>
+    <color name="color_FE5E63">#FE5E63</color>
+    <color name="color_6CABFA">#6CABFA</color>
+    <color name="color_FBE382">#FBE382</color>
+    <color name="color_FDA33E">#FDA33E</color>
+    <color name="color_646464">#646464</color>
+    <color name="color_3c3c3c">#3c3c3c</color>
+    <color name="color_e6e6e6">#e6e6e6</color>
+    <color name="color_67DCFF">#67DCFF</color>
+    <color name="color_ffa42f">#ffa42f</color>
+
+
+
+    <color name="bar_grey">#393a3e</color>
+    <color name="color_f6">#f6f6f6</color>
+    <color name="blue">#7D7DFF</color>
+    <color name="color_fa">#fafafa</color>
+    <color name="divider">#B6B6B6</color>
+    <color name="color_c51">#f94c51</color>
+    <color name="color_green">#43c117</color>
+</resources>

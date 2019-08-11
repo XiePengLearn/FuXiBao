@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="290dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:background="@color/white">
+
+
+        <TextView
+            android:id="@+id/dialog_tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/tv_153"
+            android:text="注销账号"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/dialog_tv2"
+            style="@style/common"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/tv_153"
+            android:layout_marginRight="20dp"
+            android:text="账号注销后所有信息将无法恢复如需注销账号,请拨打客服电话"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical">
+
+            <View style="@style/market_view"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/dialog_qx_cancel_account"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/runt_btn_line_bg"
+                    android:text="取消"
+                    android:textColor="@color/theme_color"/>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="40dp"
+                    android:background="#C9CBC4"/>
+
+                <Button
+                    android:id="@+id/dialog_qr_cancel_account"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/runt_btn_line_bg"
+                    android:text="拨打电话"
+                    android:textColor="@color/theme_color"/>
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

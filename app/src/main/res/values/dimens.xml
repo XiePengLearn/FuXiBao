@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="activity_horizontal_margin1">2dp</dimen>
+    <!-- begin Runt -->
+
+    <dimen name="main_select_height">20dp</dimen>
+    <dimen name="main_select_width">50dp</dimen>
+    <dimen name="add_btn_height">35dp</dimen>
+    <dimen name="btn_radio_size">15dp</dimen>
+    <dimen name="add_btn_width">100dp</dimen>
+    <dimen name="title_bar">40dp</dimen>
+    <dimen name="title_text_size">20sp</dimen>
+    <dimen name="my_store_top_linear_size">180dp</dimen>
+    <dimen name="my_store_top_linear_padding">15dp</dimen>
+    <dimen name="my_store_name_height">40dp</dimen>
+    <dimen name="my_store_left_title_width">130dp</dimen>
+    <dimen name="my_store_left_image_width">20dp</dimen>
+    <dimen name="my_store_right_margin">20dp</dimen>
+    <dimen name="my_store_border_padding">1dp</dimen>
+    <dimen name="my_store_notice_edit_padding">10dp</dimen>
+    <dimen name="my_store_share_magin">10dp</dimen>
+    <dimen name="my_store_share_image_size">30dp</dimen>
+    <dimen name="sixteen">16sp</dimen>
+    <dimen name="txt_order_title_size">13sp</dimen>
+    <dimen name="txt_order_size">11sp</dimen>
+    <dimen name="txt_add_good_size">13sp</dimen>
+    <dimen name="edit_text_size">13sp</dimen>
+    <dimen name="goods_btn_linear_padding">5dp</dimen>
+    <dimen name="goods_img_size">60dp</dimen>
+    <dimen name="goods_btns_width">20dp</dimen>
+    <dimen name="goods_btns_heght">30dp</dimen>
+    <dimen name="goods_release_linear_padding">10dp</dimen>
+    <dimen name="goods_release_eidt_margin">10dp</dimen>
+    <dimen name="goods_release_btn_height">23dp</dimen>
+    <dimen name="my_mes_img_size">40dp</dimen>
+    <dimen name="btn_right_width">12dp</dimen>
+    <dimen name="btn_right_height">20dp</dimen>
+    <dimen name="dialog_text_size">10sp</dimen>
+    <!--common use -->
+    <dimen name="margin_10">10dp</dimen>
+    <dimen name="goods_search_height">45dp</dimen>
+
+    <!-- end Runt -->
+    <dimen name="image_size">120dp</dimen>
+    <dimen name="space_size">2dp</dimen>
+    <dimen name="folder_cover_size">72dp</dimen>
+    <dimen name="main_corners">100dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+</resources>

@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/ll_parent"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:fitsSystemWindows="true"
+              android:orientation="vertical">
+
+    <!-- 标题 -->
+
+    <include layout="@layout/title_layout"/>
+
+
+    <com.shuangpin.rich.ui.widget.MyScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:text="成为大微区域代理"
+                    android:textColor="@color/tv_b87d1d"
+                    android:textSize="16sp"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="10dp"
+                    android:hint="1、获得1280个粉丝收益的权限(限前1000名)\n2、拥有推荐代理资格\n3、拥有推荐大微代理资格\n4、受益期限3年,代理费用不退"
+                    android:paddingLeft="@dimen/goods_release_linear_padding"
+                    android:textSize="14sp"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/view_lines"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/et_password_white"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="姓名 :"
+                    android:textColor="@color/tv_33"
+                    android:textSize="14sp"/>
+
+                <EditText
+                    android:id="@+id/et_business_merchant_name"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="3"
+                    android:background="@color/transparency"
+                    android:hint="请输入姓名"
+                    android:maxLength="10"
+                    android:text=""
+                    android:textCursorDrawable="@drawable/a_color_cursor"
+                    android:textSize="14sp"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/et_password_white"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="手机号 :"
+                    android:textColor="@color/tv_33"
+                    android:textSize="14sp"/>
+
+                <EditText
+                    android:id="@+id/et_business_phone_number"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="3"
+                    android:background="@color/transparency"
+                    android:hint="请输入手机号"
+                    android:inputType="number"
+                    android:text=""
+                    android:textCursorDrawable="@drawable/a_color_cursor"
+                    android:textSize="14sp"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/et_password_white"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="身份证号码 :"
+                    android:textColor="@color/tv_33"
+                    android:textSize="14sp"/>
+
+                <EditText
+                    android:id="@+id/et_business_id_card_no"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="3"
+                    android:background="@color/transparency"
+                    android:digits="0123456789xyzXYZ"
+                    android:hint="请输入身份证号码"
+                    android:inputType="number"
+                    android:text=""
+                    android:textCursorDrawable="@drawable/a_color_cursor"
+                    android:textSize="14sp"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/et_password_white"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="邀请代理号 :"
+                    android:textColor="@color/tv_33"
+                    android:textSize="14sp"/>
+
+                <EditText
+                    android:id="@+id/et_business_Invitation_agent_number"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="3"
+                    android:background="@color/transparency"
+                    android:hint="请输入邀请代理号(选填)"
+                    android:inputType="number"
+                    android:textCursorDrawable="@drawable/a_color_cursor"
+                    android:textSize="14sp"
+                    />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="14dp"
+                android:text="代理区域:"
+                android:textColor="@color/tv_33"
+                android:textSize="14sp"/>
+
+            <RelativeLayout
+                android:id="@+id/rl_business_select_city"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="9dp"
+                android:background="@drawable/et_password_white"
+
+
+                >
+
+                <TextView
+                    android:id="@+id/tv_business_select_city"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:text="地址:"
+                    android:textColor="@color/tv_22"
+                    android:textSize="14sp"
+                    />
+
+                <TextView
+                    android:id="@+id/et_select_city"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignLeft="@id/tv_business_select_city"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="85dp"
+                    android:layout_marginRight="5dp"
+
+                    android:gravity="center_vertical"
+                    android:hint=" 请选择省市区"
+                    android:textColor="@color/gray_deep"
+                    android:textCursorDrawable="@drawable/a_color_cursor"
+                    android:textSize="14sp"
+                    />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="9dp"
+                    android:layout_height="18dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/arrow3"/>
+
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/btn_business_submit_audit"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="68dp"
+                android:background="@drawable/btn_select"
+                android:text="支付"
+                android:textColor="@color/white"
+                android:textSize="18sp"/>
+
+            <LinearLayout
+                android:id="@+id/ll_buy_card_agreement"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="center"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal">
+
+
+                <CheckBox
+                    android:id="@+id/cb_apply_logo"
+                    style="@style/mycheckboxLogn"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_xieyi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:text="本人已阅读《大微区域代理协议》并同意"
+                    android:textColor="@color/tv_7c99d6"/>
+            </LinearLayout>
+        </LinearLayout>
+    </com.shuangpin.rich.ui.widget.MyScrollView>
+
+
+</LinearLayout>

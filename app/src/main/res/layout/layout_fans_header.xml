@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+
+    <LinearLayout
+        android:id="@+id/ll_top_fan_earnings"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/theme_color"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/id_cord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:singleLine="true"
+            android:text="累计助力收益"
+            android:textColor="@color/white"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/txt_shop_title_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="30sp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:visibility="visible"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txt_shop_title_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+
+                android:text="想要获得更多粉丝助力收益，去"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:visibility="visible"/>
+
+            <TextView
+                android:id="@+id/txt_invite_fans"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="邀请更多粉丝"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/tv_fbe814"
+                android:textSize="12sp"
+                android:visibility="visible"/>
+            <TextView
+                android:id="@+id/txt_shop_title_id3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+
+                android:text="吧"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:visibility="visible"/>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:visibility="gone"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/tv_give_to_friends"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+
+                android:text="赠送额度给好友"
+                android:textColor="@color/tv_d69d3a"
+                android:textSize="12sp"
+                android:visibility="visible"/>
+            <TextView
+                android:id="@+id/tv_returned_to_fans"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+                android:layout_toLeftOf="@id/tv_give_to_friends"
+
+                android:layout_marginRight="10dp"
+                android:text="剩余可收益粉丝  "
+
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:visibility="visible"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:visibility="gone"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+
+                android:text="当前可收益粉丝"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:visibility="visible"/>
+
+            <TextView
+                android:id="@+id/txt_but_earnings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text=""
+                android:textColor="@color/tv_d69d3a"
+                android:textSize="12sp"
+                android:visibility="visible"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+
+                android:text="人，"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:visibility="visible"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+
+                android:text="当前不可收益粉丝"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:visibility="visible"/>
+
+            <TextView
+                android:id="@+id/txt_do_not_earnings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text=""
+                android:textColor="@color/tv_d69d3a"
+                android:textSize="12sp"
+                android:visibility="visible"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+
+                android:text="人，"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:visibility="visible"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_root_item"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="8dp"
+        android:gravity="center"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/btn_shape_solid_white2"
+        android:layout_marginTop="140dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="粉丝等级"
+            android:visibility="gone"
+            android:textColor="@color/black"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="粉丝名称"
+            android:textColor="@color/black"
+            android:textSize="14sp"/>
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="助力收益"
+            android:textColor="@color/black"
+            android:textSize="14sp"/>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

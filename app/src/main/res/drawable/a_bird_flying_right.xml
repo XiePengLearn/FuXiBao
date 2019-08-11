@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+    android:oneshot="false"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <item android:drawable="@drawable/fly_25" android:duration="80"/>
+     <item android:drawable="@drawable/fly_20" android:duration="80"/>
+     <item android:drawable="@drawable/fly_15" android:duration="80"/>
+     <item android:drawable="@drawable/fly_10" android:duration="80"/>
+     <item android:drawable="@drawable/fly_5" android:duration="80"/>
+     <item android:drawable="@drawable/fly_0" android:duration="80"/>
+     <item android:drawable="@drawable/fly_5_1" android:duration="80"/>
+     <item android:drawable="@drawable/fly_10_1" android:duration="80"/>
+     <item android:drawable="@drawable/fly_15_1" android:duration="80"/>
+     <item android:drawable="@drawable/fly_20_1" android:duration="80"/>
+     <item android:drawable="@drawable/fly_25_1" android:duration="80"/>
+     <item android:drawable="@drawable/fly_25_1" android:duration="80"/>
+     <item android:drawable="@drawable/fly_20_1" android:duration="80"/>
+     <item android:drawable="@drawable/fly_15_1" android:duration="80"/>
+     <item android:drawable="@drawable/fly_10_1" android:duration="80"/>
+     <item android:drawable="@drawable/fly_5_1" android:duration="80"/>
+     <item android:drawable="@drawable/fly_0" android:duration="80"/>
+     <item android:drawable="@drawable/fly_5" android:duration="80"/>
+     <item android:drawable="@drawable/fly_10" android:duration="80"/>
+     <item android:drawable="@drawable/fly_15" android:duration="80"/>
+     <item android:drawable="@drawable/fly_20" android:duration="80"/>
+ <item android:drawable="@drawable/fly_25" android:duration="80"/>
+ <!--&lt;!&ndash;<item android:drawable="@drawable/fly_up_16" android:duration="80"/>&ndash;&gt;-->
+ <!--<item android:drawable="@drawable/fly_up_8" android:duration="180"/>-->
+ <!--<item android:drawable="@drawable/fly_down_0" android:duration="180"/>-->
+ <!--<item android:drawable="@drawable/fly_down_8" android:duration="180"/>-->
+ <!--&lt;!&ndash;<item android:drawable="@drawable/fly_down_16" android:duration="80"/>&ndash;&gt;-->
+ <!--&lt;!&ndash;<item android:drawable="@drawable/fly_down_8" android:duration="80"/>&ndash;&gt;-->
+ <!--<item android:drawable="@drawable/fly_down_0" android:duration="180"/>-->
+ <!--&lt;!&ndash;<item android:drawable="@drawable/fly_up_8" android:duration="80"/>&ndash;&gt;-->
+
+
+
+</animation-list>

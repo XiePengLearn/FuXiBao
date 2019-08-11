@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:layout_margin="30dp"
+
+    >
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/white_rectangle"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+        <!--设置-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+
+            >
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="25dp"
+
+                android:text="店铺元宝"
+                android:textColor="@color/tv_33"
+                android:textSize="16sp"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/view_lines"/>
+
+        <!--设置-->
+        <RelativeLayout
+            android:id="@+id/rl_wechat_of_v"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+
+            >
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_centerInParent="true"
+
+                android:text="发店铺元宝(吸引更多粉丝关注)"
+                android:textColor="@color/tv_8033"
+                android:textSize="14sp"/>
+
+        </RelativeLayout>
+        <!--设置-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/view_lines"/>
+
+        <RelativeLayout
+            android:id="@+id/rl_alipay_of_v"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_centerInParent="true"
+
+                android:text="发店内元宝(到店才能领的元宝)"
+                android:textColor="@color/tv_8033"
+                android:textSize="14sp"/>
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/view_lines"/>
+
+        <RelativeLayout
+            android:id="@+id/rl_balance_of_v"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_centerInParent="true"
+
+                android:text="发优惠卷(到店使用)"
+                android:textColor="@color/tv_8033"
+                android:textSize="14sp"/>
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

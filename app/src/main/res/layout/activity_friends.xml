@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@color/bg_normal"
+              android:orientation="vertical">
+
+    <!-- The PullToRefreshGridView replaces a standard GridView widget. -->
+
+    <!-- 标题 -->
+
+
+    <include layout="@layout/title_layout"/>
+
+    <com.handmark.pulltorefresh.library.PullToRefreshHeadGridView
+        android:id="@+id/pull_refresh_grid"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+
+        android:scrollbars="none"
+        />
+</LinearLayout>

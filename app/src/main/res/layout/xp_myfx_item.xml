@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/ll_root_item"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/white"
+        >
+
+        <TextView
+            android:id="@+id/tv_fans1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="22"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/tv_33"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/tv_fans2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:layout_centerVertical="true"
+            android:text="22"
+            android:textColor="@color/blue_color"
+            android:textSize="15sp"/>
+
+
+
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/ll_root_item2"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/white"
+        >
+
+        <TextView
+            android:id="@+id/tv_fans3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="22"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/tv_8033"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/tv_fans4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:layout_centerVertical="true"
+            android:text="22"
+            android:textColor="@color/tv_8033"
+            android:textSize="14sp"/>
+
+
+
+
+
+    </RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/view_lines"/>
+</LinearLayout>

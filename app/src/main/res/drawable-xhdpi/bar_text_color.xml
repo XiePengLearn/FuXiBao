@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 选中 -->
+    <item android:color="@color/txt_rectangle_yellow" android:state_checked="true"></item>
+    <!-- 按下 -->
+    <item android:color="@color/txt_rectangle_yellow" android:state_pressed="true"></item>
+    <!-- 抬起 -->
+    <item android:color="@color/tv_33_50"></item>
+
+</selector>

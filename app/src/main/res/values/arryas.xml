@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="AnimatedCircleLoadingView">
+		<attr name="mainColor" format="color" localization="suggested"/>
+		<attr name="secondaryColor" format="color" localization="suggested"/>
+		<attr name="checkMarkTintColor" format="color" localization="suggested"/>
+		<attr name="failureMarkTintColor" format="color" localization="suggested"/>
+		<attr name="textColor" format="color" localization="suggested"/>
+	</declare-styleable>
+
+
+	<string-array name="names">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+
+
+	</string-array>
+
+	<string-array name="icons">
+		<item>one_yuan</item>
+		<item>three_yuan</item>
+
+		<item>gift</item>
+		<item>nine_yuan</item>
+
+		<item>pic_1</item>
+		<item>one_yuan</item>
+
+		<item>gift</item>
+		<item>six_yuan</item>
+
+	</string-array>
+</resources>

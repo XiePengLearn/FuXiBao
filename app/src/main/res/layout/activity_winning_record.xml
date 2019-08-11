@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@color/white"
+              android:orientation="vertical">
+
+    <!-- The PullToRefreshGridView replaces a standard GridView widget. -->
+
+    <!-- 标题 -->
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/white"
+        >
+
+        <!-- begin line 1 -->
+
+        <LinearLayout
+            android:id="@+id/left_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@color/transparency"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center_vertical"
+            android:minWidth="40dip"
+            android:orientation="horizontal"
+            android:paddingLeft="15dip"
+            android:paddingRight="20dip">
+
+            <!-- 左侧返回按钮 -->
+            <TextView
+                android:id="@+id/back_icon"
+                android:layout_width="13dp"
+                android:layout_height="20dp"
+                android:background="@drawable/image_back_new"/>
+
+
+        </LinearLayout>
+        <!-- end line 1 -->
+
+
+        <!-- begin line 2 -->
+
+        <LinearLayout
+            android:id="@+id/center_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+
+            android:orientation="vertical">
+
+            <!-- 中间title -->
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:hint=""
+                android:maxLines="1"
+                android:maxWidth="180dip"
+                android:textColor="@color/black"
+                android:textSize="16sp"/>
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/view_lines"/>
+
+    <com.handmark.pulltorefresh.library.PullToRefreshHeadGridView
+        android:id="@+id/pull_refresh_grid"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="none"
+        />
+
+
+</LinearLayout>

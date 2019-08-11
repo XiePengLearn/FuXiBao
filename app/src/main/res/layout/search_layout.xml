@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:id="@+id/search_layout"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+
+    <RelativeLayout
+        android:id="@+id/top"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:background="@color/transparency"
+        android:paddingLeft="5dp"
+        >
+
+        <Button
+            android:id="@+id/search_btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:text="返回"
+            android:visibility="gone"/>
+
+        <RelativeLayout
+            android:id="@+id/rlSearchFrameDelete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/search_btn_back"
+            android:gravity="center_vertical">
+            <!--sousuoxian-->
+            <EditText
+                android:id="@+id/search_et_input"
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_marginRight="8dp"
+                android:background="@color/transparency"
+                android:hint="搜索地点"
+                android:imeOptions="actionSearch"
+                android:textCursorDrawable="@drawable/a_color_cursor"
+                android:inputType="text"
+
+                android:maxLines="1"
+                android:paddingLeft="10dp"
+                android:textSize="12sp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="26dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="1dp"
+                android:src="@drawable/search_icon"
+                android:visibility="gone"/>
+
+            <ImageView
+                android:id="@+id/search_iv_delete"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/delete_cross"
+                android:visibility="visible"/>
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <ListView
+        android:visibility="gone"
+        android:id="@+id/search_lv_tips"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="1px">
+    </ListView>
+</LinearLayout>

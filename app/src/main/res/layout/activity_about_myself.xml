@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_normal"
+    >
+
+    <include
+        android:id="@+id/title_layout1"
+        layout="@layout/title_layout"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_icon"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:src="@mipmap/ic_launcher" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_icon"
+            android:id="@+id/tv_edition"
+            android:layout_centerHorizontal="true"
+            android:text="版本号1.0.1"
+            android:layout_marginTop="18dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_edition"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:textSize="12dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:text="       北京拣到互联信息有限公司是一家广告与电商服务型公司。致力于打造看广告可挣钱的新商业模式。新型广告系统主要特点是看广告可得到钱，收入可提现，可在平台内消费。通过拣到系统平台的趣味性极强的看广告得收益模式，完成社会上普通用户从不喜欢看广告到乐于看广告的转变。拣到广告系统集合了：京际通、金石榴、美丽元素、爱心农夫、楚源溯品、智慧法库、H3大健康、优太乐购等数十家电商平台，通过多样化的方式让广告精准化投放，让广告更有效地展现。让企业的广告可以无缝投放，让商品可以自带流量，让用户可以看广告挣钱。平台内有多样化广告展现方式，如开屏动画、游戏页面、可选择性格子广告、同城推送广告等。同时，不同的广告类型有不同的收入加成，多看多得。"
+            android:layout_marginTop="18dp"
+            />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:textSize="12sp"
+            android:layout_marginBottom="30dp"
+            android:textColor="#888888"
+            android:id="@+id/company_name"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="北京拣到互联信息有限公司"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="12sp"
+            android:layout_marginBottom="3dp"
+            android:textColor="#888888"
+            android:id="@+id/renzheng"
+            android:layout_above="@id/company_name"
+            android:layout_centerHorizontal="true"
+            android:text="Copyright © 2017 - 2018"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+</LinearLayout>

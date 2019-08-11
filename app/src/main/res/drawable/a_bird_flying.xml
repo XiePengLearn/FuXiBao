@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+    android:oneshot="false"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <!--<item android:drawable="@drawable/home_take_off_bird1" android:duration="80"/>-->
+     <!--<item android:drawable="@drawable/home_take_off_bird2" android:duration="80"/>-->
+     <!--<item android:drawable="@drawable/home_take_off_bird3" android:duration="80"/>-->
+     <!--<item android:drawable="@drawable/home_take_off_bird4" android:duration="80"/>-->
+     <!--&lt;!&ndash;<item android:drawable="@drawable/home_take_off_bird5" android:duration="80"/>&ndash;&gt;-->
+     <!--<item android:drawable="@drawable/home_take_off_bird6" android:duration="80"/>-->
+     <!--<item android:drawable="@drawable/home_take_off_bird7" android:duration="100"/>-->
+     <!--<item android:drawable="@drawable/home_take_off_bird8" android:duration="100"/>-->
+     <!--<item android:drawable="@drawable/home_take_off_bird9" android:duration="110"/>-->
+     <!--<item android:drawable="@drawable/home_take_off_bird10" android:duration="120"/>-->
+     <!--<item android:drawable="@drawable/home_take_off_bird10_10" android:duration="110"/>-->
+     <!--<item android:drawable="@drawable/home_take_off_bird9_9" android:duration="100"/>-->
+     <!--<item android:drawable="@drawable/home_take_off_bird8_8" android:duration="96"/>-->
+     <!--<item android:drawable="@drawable/home_take_off_bird7_7" android:duration="90"/>-->
+     <!--<item android:drawable="@drawable/home_take_off_bird6_6" android:duration="80"/>-->
+     <!--&lt;!&ndash;<item android:drawable="@drawable/home_take_off_bird5_5" android:duration="80"/>&ndash;&gt;-->
+     <!--<item android:drawable="@drawable/home_take_off_bird4_4" android:duration="80"/>-->
+     <!--<item android:drawable="@drawable/home_take_off_bird3_3" android:duration="80"/>-->
+     <!--<item android:drawable="@drawable/home_take_off_bird2_2" android:duration="80"/>-->
+     <!--<item android:drawable="@drawable/home_take_off_bird1_1" android:duration="80"/>-->
+
+</animation-list>

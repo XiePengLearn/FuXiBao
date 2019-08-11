@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:background="@color/bg_normal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="13dp"
+            android:text="提现到微信钱包"
+
+            android:textColor="@color/tv_33"
+            android:textSize="16sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:background="@color/view_lines"
+            android:layout_marginTop="10dp"
+            android:layout_height="1dp"/>
+        <TextView
+            android:id="@+id/tv_point_explain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="13dp"
+            android:text="提现金额: "
+
+            android:textColor="@color/tv_33"
+            android:textSize="16sp"/>
+
+        <com.shuangpin.rich.ui.widget.RadioGroupEx
+            android:id="@+id/rge_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:background="@color/white"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            >
+
+            <RadioButton
+                android:id="@+id/rb_1"
+                style="@style/RbStyle"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="15dp"
+                android:gravity="center"
+                android:text="50元"/>
+
+            <RadioButton
+                android:id="@+id/rb_2"
+                style="@style/RbStyle"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+
+                android:text="100元"/>
+
+
+            <RadioButton
+                android:id="@+id/rb_3"
+                style="@style/RbStyle"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:text="200元"
+                android:visibility="invisible"/>
+
+
+            <RadioButton
+                android:id="@+id/rb_gong"
+                style="@style/RbStyle"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:text="其他金额"
+                android:visibility="gone"/>
+
+        </com.shuangpin.rich.ui.widget.RadioGroupEx>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/tv_returned_to_fans"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center"
+                android:layout_marginRight="20dp"
+                android:text="粉丝收益:"
+                android:textColor="@color/tv_33"
+                android:textSize="14sp"
+                android:visibility="visible"/>
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btn_withdraw"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="38dp"
+            android:background="@drawable/button_put_the_bird"
+            android:text="提现"
+            android:textColor="@color/white"
+            android:textSize="18sp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ll_income_money"
+            android:layout_marginTop="28dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:text="提现说明:"
+                android:textSize="16sp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="10dp"
+                android:text="提现手续费5元/笔"
+                android:paddingLeft="@dimen/goods_release_linear_padding"
+                android:textSize="14sp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <FrameLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ProgressBar
+            android:id="@+id/pb_me_fenzu"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:indeterminateTint="@color/theme_color"
+            android:indeterminateTintMode="src_atop"
+            />
+    </FrameLayout>
+</RelativeLayout>

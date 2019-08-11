@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/ll_parent"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:fitsSystemWindows="true"
+              android:background="@color/white"
+              android:orientation="vertical">
+
+    <!-- 标题 -->
+
+    <include layout="@layout/title_layout_withe"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/view_lines"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_all_ti_xian"
+            android:layout_width="wrap_content"
+            android:drawablePadding="5dp"
+            android:gravity="center"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:drawableRight="@drawable/back_arrow_down"
+            android:text="全部提现明细"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/tv_33"
+            android:textSize="15sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_ti_xian"
+            android:layout_width="wrap_content"
+            android:drawablePadding="5dp"
+            android:gravity="center"
+            android:layout_height="40dp"
+            android:text="提现"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/tv_33"
+            android:textSize="15sp"/>
+        <TextView
+            android:id="@+id/tv_sheng_yu"
+            android:layout_width="wrap_content"
+            android:drawablePadding="5dp"
+            android:gravity="center"
+            android:layout_height="40dp"
+            android:text="剩余"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/tv_33"
+            android:textSize="15sp"/>
+
+    </LinearLayout>
+
+    <com.shuangpin.rich.ui.widget.RefreshListView
+        android:id="@+id/rv_refreshListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:cacheColorHint="@null"
+        android:descendantFocusability="beforeDescendants"
+        android:divider="@null"
+        android:fadingEdge="none"
+        android:listSelector="@color/transparent"/>
+
+
+</LinearLayout>

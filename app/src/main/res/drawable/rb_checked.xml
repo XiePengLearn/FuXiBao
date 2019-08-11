@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <stroke
+        android:width="0.5dp"
+        android:color="@color/tv_d69d3a" />
+
+    <solid
+        android:color="@color/tv_33d69d3a" />
+    <corners
+        android:radius="9dp"
+        android:topLeftRadius="5dp"
+        android:topRightRadius="5dp"
+        android:bottomLeftRadius="5dp"
+        android:bottomRightRadius="5dp"/><!-- 设置圆角半径 -->
+
+</shape>
